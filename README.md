@@ -1,15 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## What's included
+## Extras on top of create-next-app
 
 - .nvmrc
   - Install `nvm` . Then run `nvm use` to get the appropriate Node version
 - openai package
--
+- backend server running OpenAI chat endpoint
+- .env.example file
+  - Create your own .env.local file using this format with your own keys
 
 ## Getting Started
 
-First, run the development server:
+Run the development server:
 
 ```bash
 npm run dev
